@@ -29,7 +29,7 @@ function App() {
       <Header data={nasaData} />
       <Pictures data={nasaData} />
       <Explain data={nasaData} />
-      <Footer />
+      <Footer name={nasaData}/>
     </div>
   );
 }

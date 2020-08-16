@@ -16,7 +16,9 @@ const Footer = (props) => {
 
   return (
     <div className="footer">
-      <StyledP>If you're seeing this then the API is down{data}</StyledP>
+      <StyledP>
+        If you're seeing no data being returned above then API is down{data}
+      </StyledP>
       <StyledP>
         Find the project{" "}
         <StyledA>
