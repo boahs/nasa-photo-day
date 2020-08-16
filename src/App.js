@@ -5,6 +5,7 @@ import { BASE_URL, API_KEY } from "./constants/index";
 import Pictures from "./components/image";
 import Header from "./components/header";
 import Explain from "./components/explain";
+import Footer from "./components/footer";
 
 // import { Pictures, Header } from "./components/";
 
@@ -28,6 +29,7 @@ function App() {
       <Header data={nasaData} />
       <Pictures data={nasaData} />
       <Explain data={nasaData} />
+      <Footer />
     </div>
   );
 }
